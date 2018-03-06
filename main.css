@@ -56,17 +56,14 @@ h2 {
 * {
   box-sizing: border-box; }
 
-/* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto; }
 
-/* Hide the images by default */
 .mySlides {
   display: none; }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -80,18 +77,15 @@ h2 {
   transition: 0.5s ease;
   border-radius: 0 3px 3px 0; }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px; }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0, 0, 0, 0.8); }
 
-/* Caption text */
 .text {
-  color: #f2f2f2;
+  color: whitesmoke;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -107,9 +101,6 @@ h2 {
   position: absolute;
   top: 0;
   font-family: 'Roboto', sans-serif; }
-
-.numbertextspecial {
-  padding-left: 100px; }
 
 .dot {
   cursor: pointer;
