@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    
     $(".home-nav").hover(function(){
         $(".home").show();
     }, function(){
@@ -23,17 +24,23 @@ $(document).ready(function(){
         $(".inspiration").hide();
     })
     
+      if (hour < 10) {
+    console.log("Good Mornin'!");
+} else if (hour < 20) {
+   console.log("Good Day");
+} else {
+    console.log("Good Evening!");
+}
+    
 });
 
  var slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
